@@ -11,6 +11,7 @@ set(BUILD_SHARED_LIBS OFF CACHE BOOL "" FORCE)
 
 add_subdirectory(libraries/glfw-3.3.2)
 add_subdirectory(libraries/glad)
+add_subdirectory(libraries/std_image)
 
 add_executable(main src/main.cpp)
 
